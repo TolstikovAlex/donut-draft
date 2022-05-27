@@ -1,0 +1,12 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './components/header';
+@import './utils/variable';
+@import './components/container';
+@import './components/program';
+@import './base/common';
+@import './components/logo';

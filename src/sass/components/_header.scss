@@ -1,0 +1,18 @@
+.header__container {
+  width: 715px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.social {
+  display: flex;
+}
+
+.social__item:not(:last-child){
+  margin-right: 16px;
+}
