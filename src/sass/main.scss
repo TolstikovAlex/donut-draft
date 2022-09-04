@@ -1,12 +1,25 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+/* === Variables === */
+@import './utils/variables';
 
-// Стили для файла с примером HTML-фрагмента
-@import './components/header';
-@import './utils/variable';
-@import './components/container';
-@import './components/program';
+/* === Common styles === */
 @import './base/common';
-@import './components/logo';
+
+/* === Is-hidden style === */
+@import './utils/is-hidden';
+
+/* === Container styles === */
+@import './base/container';
+
+/* === Visually hidden === */
+@import './utils/visually-hidden';
+
+/* === Layout === */
+@import './layout/main';
+
+/* === Components === */
+@import './components/main';
+
+@import './layout/footer';
+
+@import './layout/spinner';
+

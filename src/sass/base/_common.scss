@@ -1,13 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 h1,
 h2,
 h3,
@@ -15,8 +5,7 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 img {
@@ -24,41 +13,32 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-address {
-  font-style: normal;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
+html {
+  height: 100%;
 }
 
 body {
-  background-color: var(--body-color);
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  color: var(--text-color);
+  height: 100%;
 
-  @media screen and (min-width: $desktop) {
-    background-color: var(--second-body-color);
-    font-size: 18px;
-    line-height: 1.22;
-  }
+  font-style: normal;
+  font-family: var(--text-main);
+  color: var(--color-design-main);
+  font-weight: var(--text-bold);
+}
+body.modal-open {
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
 }
 
-.title {
-  font-family: 'Caveat Brush', sans-serif;
-  font-weight: 400;
-  color: $title-color;
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
 }

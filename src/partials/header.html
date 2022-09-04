@@ -1,51 +1,33 @@
-<!-- <header class="header">
-  <div class="header__container">
-    <a class="logo" href="./index.html">
-      <svg class="logo__icon">
-        <use href="./images/sprite.svg#logo"></use>
+<header class="header header-container_home container">
+  <navigation class="nav">
+    <button class="logo">
+      <svg class="logo-icon" width="24" height="24">
+        <use href=""></use>
       </svg>
-    </a>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a class="nav__link" href="#about-us">About us</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#programs">Program</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#reviews">Reviews</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#contact">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <h1 class="header__title title">Donut Masterclass with the Donut King</h1>
-  <p class="hero__subtitle">Hosted by Eva Green</p>
-  <a class="header__link" href="#registration">Register</a>
-  <ul class="social">
-    <li class="social__item">
-      <a class="social__link" href="#">
-        <svg class="social__icon" width="16" height="16">
-          <use href="./images/sprite.svg#twitter-icon"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="social__item">
-      <a class="social__link" href="#">
-        <svg class="social__icon" width="16" height="16">
-          <use href="./images/sprite.svg#instagram-icon"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="social__item">
-      <a class="social__link" href="#">
-        <svg class="social__icon" width="16" height="16">
-          <use href="./images/sprite.svg#facebook-icon"></use>
-        </svg>
-      </a>
-    </li>
-  </ul>
-</header> -->
+    </button>
+    <span class="logo-text">Filmoteka</span>
+
+    <ul class="nav-list">
+      <li class="nav-list-item">
+        <button id="home" class="nav-btn nav-btn--underline">home</button>
+      </li>
+      <li class="nav-list-item">
+        <button id="library" class="nav-btn">my library</button>
+      </li>
+    </ul>
+  </navigation>
+  <form action="" class="header-form">
+    <input
+      type="text"
+      class="header-search-input"
+      name="searchQuery"
+      placeholder="Search Movie"
+    />
+    <button type="submit" class="search-btn">
+      <svg class="icon-search" width="24" height="24">
+        <use href=""></use>
+      </svg>
+    </button>
+  </form>
+  <ul class="header-list-buttons"></ul>
+</header>
